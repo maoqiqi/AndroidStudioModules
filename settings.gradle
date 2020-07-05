@@ -1,0 +1,3 @@
+include ':navigation-java'
+include ':navigation-kotlin'
+rootProject.name = "AndroidStudioModules"
