@@ -1,3 +1,5 @@
 include ':navigation-java'
 include ':navigation-kotlin'
+include ':bottomnavigationview-java'
+include ':bottomnavigationview-kotlin'
 rootProject.name = "AndroidStudioModules"
