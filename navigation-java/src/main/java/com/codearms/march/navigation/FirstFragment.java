@@ -25,11 +25,6 @@ public class FirstFragment extends Fragment {
     @Override
     public void onActivityCreated(@Nullable Bundle savedInstanceState) {
         super.onActivityCreated(savedInstanceState);
-        getView().findViewById(R.id.btnFirst).setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Navigation.findNavController(v).navigate(R.id.action_first_to_second);
-            }
-        });
+        getView().findViewById(R.id.btnFirst).setOnClickListener(v -> Navigation.findNavController(v).navigate(R.id.action_first_to_second));
     }
 }
