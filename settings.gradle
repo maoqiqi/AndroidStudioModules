@@ -1,3 +1,5 @@
+include ':drawer-java'
+include ':drawer-kotlin'
 include ':navigation-java'
 include ':navigation-kotlin'
 include ':bottomnavigationview-java'
