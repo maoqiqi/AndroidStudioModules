@@ -1,3 +1,7 @@
+include ':viewmodel-kotlin'
+include ':viewmodel-java'
+include ':scrolling-kotlin'
+include ':scrolling-java'
 include ':detail-java'
 include ':detail-kotlin'
 include ':tabbed-java'
