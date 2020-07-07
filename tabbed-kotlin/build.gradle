@@ -6,7 +6,7 @@ android {
     compileSdkVersion 29
 
     defaultConfig {
-        applicationId "com.codearms.march.tabbed"
+        applicationId "com.codearms.march.tabbed.kotlin"
         minSdkVersion 14
         targetSdkVersion 29
         versionCode 1
