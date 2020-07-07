@@ -1,3 +1,5 @@
+include ':detail-java'
+include ':detail-kotlin'
 include ':tabbed-java'
 include ':tabbed-kotlin'
 include ':drawer-java'
