@@ -6,17 +6,12 @@ import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentPagerAdapter
 import com.codearms.march.tabbed.R
 
-private val TAB_TITLES = arrayOf(
-        R.string.tab_text_1,
-        R.string.tab_text_2
-)
+private val TAB_TITLES = arrayOf(R.string.tab_text_1, R.string.tab_text_2)
 
 /**
- * A [FragmentPagerAdapter] that returns a fragment corresponding to
- * one of the sections/tabs/pages.
+ * A [FragmentPagerAdapter] that returns a fragment corresponding to one of the sections/tabs/pages.
  */
-class SectionsPagerAdapter(private val context: Context, fm: FragmentManager)
-    : FragmentPagerAdapter(fm) {
+class SectionsPagerAdapter(private val context: Context, fm: FragmentManager) : FragmentPagerAdapter(fm) {
 
     override fun getItem(position: Int): Fragment {
         // getItem is called to instantiate the fragment for the given page.
@@ -30,6 +25,6 @@ class SectionsPagerAdapter(private val context: Context, fm: FragmentManager)
 
     override fun getCount(): Int {
         // Show 2 total pages.
-        return 2
+        return TAB_TITLES.size
     }
 }
